@@ -55,3 +55,9 @@ A customer-operations agent for a fictional electronics retailer, built on a Sal
 - Inventory lookup needs the exact SKU; a product-name-to-SKU lookup is a planned improvement.
 - Notifications are simulated through email to the script owner, not sent to real customers.
 - Actions are implemented in Apex rather than Flow.
+
+## Agent structure
+
+![NovaTech agent structure: router, returns, order tracking, inventory and escalation subagents](docs/images/agent-overview.png)
+
+The agent definition lives in the Salesforce org (not exported to this repository). The diagram shows the router and its subagents; each subagent can call only the approved Apex actions listed in `ARCHITECTURE.md`.
