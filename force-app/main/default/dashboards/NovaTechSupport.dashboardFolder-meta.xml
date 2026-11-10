@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>vinayakreddymettu.45f1a10158c7@agentforce.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>NovaTech Support</name>
+</DashboardFolder>

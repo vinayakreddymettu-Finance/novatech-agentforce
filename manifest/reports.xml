@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>NovaTechSupport</members>
+        <name>ReportFolder</name>
+    </types>
+    <types>
+        <members>NovaTechSupport/New_Cases_Report_HT6</members>
+        <members>NovaTechSupport/New_Orders_Report_slh</members>
+        <members>NovaTechSupport/New_Return_Requests_Report_z8N</members>
+        <members>NovaTechSupport/New_Refund_Approvals_Report_TT6</members>
+        <members>NovaTechSupport/Repeated_Complaints_fcB</members>
+        <members>NovaTechSupport/New_Integration_Logs_Report_Abl</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>NovaTechSupport</members>
+        <name>DashboardFolder</name>
+    </types>
+    <types>
+        <members>NovaTechSupport/XTFxTUXSDxIaIBrSzJzgivqHfkdgBn</members>
+        <name>Dashboard</name>
+    </types>
+    <version>66.0</version>
+</Package>
